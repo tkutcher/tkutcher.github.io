@@ -1,0 +1,31 @@
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+
+.tk-icons a {
+    text-decoration: none;
+    color: #5a6268;
+    font-size: 45px;
+}
+
+/*.tk-icons i {*/
+    /*height: 10px;*/
+/*}*/
+
+
+ul li {
+    padding: 10px;
+    margin: 0;
+    display: inline;
+    list-style: none;
+}
+
+i:hover {
+    color: #f05d23;
+}
