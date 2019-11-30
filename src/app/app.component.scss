@@ -41,6 +41,7 @@ a:-webkit-any-link {
 
 .tk-icons {
     text-align: center;
+    height: 100px;
 }
 
 .tk-icons a {
@@ -50,44 +51,66 @@ a:-webkit-any-link {
 }
 
 .tk-icons ul {
-    list-style-type: none;
+  list-style-type: none;
+  height: 100px;
 }
 
 .tk-icons li {
-    padding: 10px;
-    margin: 0;
-    display: inline-block;
-    list-style: none;
+  height: 100px;
+  padding: 10px;
+  display: inline-flex;
+  list-style: none;
 }
 
-.tk-facebook i:hover {
+.tk-facebook a:hover {
     color: #3b5998;
 }
 
-.tk-twitter i:hover {
+.tk-facebook a:hover .tk-icon-handle {
+  display: none;
+}
+
+.tk-twitter a:hover {
     color: #00acee;
 }
 
-.tk-youtube i:hover {
+.tk-youtube a:hover {
     color: #c4302b;
 }
 
-.tk-instagram i:hover {
+.tk-instagram a:hover {
     color: #e4405f;
 }
 
-.tk-linkedin i:hover {
+.tk-linkedin a:hover {
     color: #0e76a8;
 }
 
-.tk-github i:hover {
+.tk-github a:hover {
     color: #6cc644;
 }
 
-.tk-gitlab i:hover {
+.tk-gitlab a:hover {
     color: #fc6d27;
 }
 
-.tk-stack-overflow i:hover {
+.tk-stack-overflow a:hover {
     color: #ef8236;
 }
+
+.tk-icon-handle {
+  height: 15px;
+  width: 66px;
+  display: none;
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  left: 50%;
+  margin-left: -33px;
+}
+
+.tk-icons a:hover .tk-icon-handle {
+  display: block;
+}
+
+
