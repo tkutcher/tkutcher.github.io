@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --base-href 'https://tkutcher.com/' --aot --output-hashing=all && cp src/CNAME dist",
+    "build": "ng build --prod --base-href 'https://www.tkutcher.com/' --aot --output-hashing=all && cp src/CNAME dist",
     "deploy": "ngh --branch=master",
     "test": "ng test",
     "lint": "ng lint",
