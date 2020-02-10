@@ -1,4 +1,4 @@
-.PHONY dev build deploy
+.PHONY: dev build deploy
 
 dev:
 	ng serve
